@@ -3,11 +3,12 @@
     padding: 0%;
     font-family: sans-serif;
 }
-.banner{
+.Banner{
     width: 100%;
     height: 100vh;
-    /* background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(images/images.jpeg)); */
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(images/images.jpeg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg); */
+    /* background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://images.pexels.com/photos/244517/pexels-photo-244517.jpeg?cs=srgb&dl=pexels-photoklickr-244517.jpg&fm=jpg); */
     background-size: cover;
     background-position: center;
 }
@@ -19,22 +20,23 @@
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    width:120px
-    cursor:pointer;
-        border-radius: 100%;
+.logo {
+    width:120px;
+    cursor: pointer;
+    border-radius: 100%;
 }
 .navbar ul li{
     list-style:none;
     display: inline-block;
     margin: 0 20px;
+
     position: relative;
 }
  
 .navbar ul li a{
     text-decoration: none;
     color: white;
-    text-transform: :uppercase;
+    text-transform:uppercase;
 }
 /* styling content class */
 .content{
@@ -45,7 +47,7 @@
     text-align: center;
     color: white;
 }
-. .content h1{
+.content h1{
     font-size: 70px;
     margin-top: 80px;
    
@@ -78,7 +80,7 @@ button{
     bottom: 1px;
     transition: 0.5s;
 }
-.navbar ul li : hover::after{
+.navbar ul li :hover::after{
     width: 100%;
 
 }
