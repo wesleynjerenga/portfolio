@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #b74b4b;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #f4f4f9;
+}
+
+header nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Services Section */
+.services {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.services h2 {
+    color: #b74b4b;
+    margin-bottom: 1rem;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.services li i {
+    color: #b74b4b;
+}
+
+/* Projects Section */
+.projects {
+    max-width: 1000px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.projects h2 {
+    color: #b74b4b;
+    margin-bottom: 1rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.project-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.project-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.project-item p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+/* GitHub Link Section */
+.github-link {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.github-link p {
+    margin-bottom: 1rem;
+}
+
+.github-link .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #b74b4b;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.github-link .btn:hover {
+    background: #a33a3a;
+}

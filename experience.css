@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #b74b4b;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #f4f4f9;
+}
+
+header nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Experience Section */
+.experience {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.experience h1 {
+    color: #b74b4b;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.timeline-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.timeline-item h2 {
+    color: #b74b4b;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.timeline-item p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.timeline-item span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #666;
+}
